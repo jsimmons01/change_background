@@ -1,1 +1,13 @@
-const images = ["images/boat.org", "images/camels.jpg", "images/cherry-blossom.jpg", "images/desert.jpg", "images/elephants.jpg","images/ocean.jpg", "images/snowy-mountain.jpg", "images/sunrise.jpg"]
+const images = ["url(images/boat.jpg)", "url(images/camels.jpg)", "url(images/cherry-blossom.jpg)", "url(images/desert.jpg)", "url(images/elephants.jpg)","url(images/ocean.jpg)", "url(images/snowy-mountain.jpg)", "url(images/sunrise.jpg)"];
+const backgroundStyle = document.getElementById("background");
+const btn = document.querySelector(".btn")
+
+btn.addEventListener('click', function(){
+    let randomNumber = Math.floor(Math.random()*8)
+
+    backgroundStyle.style.backgroundImage = images[randomNumber];
+
+    console.log(randomNumber)
+   
+    
+});
