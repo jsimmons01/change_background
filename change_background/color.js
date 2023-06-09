@@ -5,5 +5,11 @@ const randomNumber = Math.floor(Math.random()*values.length);
 const color = '';
 
 btn.addEventListener('click', function(){
+    for(i=0; i< 6; i++){
+        color += values[randomNumber];
+    }
 
+    backgroundHex.style.background = color;
+
+    
 })
