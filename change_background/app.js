@@ -1,0 +1,1 @@
+const images = ["images/boat.org", "images/camels.jpg", "images/cherry-blossom.jpg", "images/desert.jpg", "images/elephants.jpg","images/ocean.jpg", "images/snowy-mountain.jpg", "images/sunrise.jpg"]
